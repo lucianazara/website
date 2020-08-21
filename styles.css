@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #FBD9FE;
+    font-family: 'Sacramento', cursive;
+    font-size: 200%;
+    color: indigo; 
+}
+
+hr {
+    width: 200%;
+    height: none;
+    border-style: none;
+    border-top: dotted;
+    color: darkorchid;
+    width: 50%;
+}
+
+p, li {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.top-container {
+    position: relative;
+    padding-top: 100px;
+
+}
+h1 {
+    font-size: 300%;
+    margin: 0;
+    color: indigo;
+}
+
+h2 {
+    font-size: 200%;
+}
+
+h3 {
+    font-size: 150%;
+    margin-bottom: 0;
+
+}
+.texto-varita {
+    text-align: left;
+}
+
+.texto-olla {
+    text-align: right;
+   
+}
+
+/* Este código afecta al footer:
+.qa {
+    width: 100%;
+    margin-left: 100px;
+}
+
+.dev {
+    width: 100%;
+    margin-right: 100px;
+}
+*/
+
+.varita {
+    margin-top: 50px;
+    vertical-align: middle;
+}
+
+.olla {
+    margin-top: 50px;
+    vertical-align: middle;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.footer {
+    background-color: darkmagenta;
+    position:static; 
+    width:100%; 
+    padding: 40px 0 20px;
+    height:50px; 
+
+      
+
+}
+
+.footer-link {
+    color: darkorchid;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60%;
+    text-decoration: none;
+    text-align: center;
+    margin: 30px;
+    
+}
+
+.footer-link:hover {
+    color: plum;
+}
